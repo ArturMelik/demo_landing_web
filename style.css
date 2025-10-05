@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: #333333;
+    background: linear-gradient(135deg, #F5E1FD, #D4C1EC);
+}
+
+nav {
+    background-color: #333333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #333333;
+    transition: background-color 0.6s, color 0.6s;
+    border: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #333333;
+    background-color: #A59AD7;
+    border-color: #FFFFFF;
+}
+
+nav ul li a:focus {
+    outline: 2px solid #A59AD7;
+}
+
+header {
+    background-color: #A59AD7;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid #333333;
+}
+
+h1 {
+    font-size: 3.2em;
+    letter-spacing: 4px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 0;
+    font-size: 1.8em;
+    padding-bottom: 5px;
+}
+
+main {
+    padding: 30px;
+    max-width: 850px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #DDD;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 30px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    font-family:monospace;
+    font-size: 5vw;
+    margin-top: -270px;
+    font-style:oblique;
+    
+
+}
+#sobremi{
+    background-color: aqua;
+    border: 2px solid;
+}
+#proyectos{
+    background-color:cornsilk;
+    border: 2px solid;
+}
+#contacto{
+    background-color: grey;
+    border: 2px solid;
+}
+main p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        visibility: visible;
+    }
+
+    nav ul li a {
+        padding: 12px 15px;
+        text-align: center;
+    }
+
+    header {
+        padding: 60px 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    main {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .section {
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+}
